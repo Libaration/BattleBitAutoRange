@@ -1,0 +1,20 @@
+[package]
+name = "coolstuff"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+strip = true
+debug = false
+
+[dependencies]
+rsautogui = "0.2.2"
+opencv = { version = "0.88.1", features = ["clang-runtime"] }
+screenshots = "0.8.5"
+rusty-tesseract = "1.1.9"
+mki = "0.2.3"
+fastrand = "2.0.1"
+lazy_static = "1.4.0"
+goldberg = "0.1.0"
